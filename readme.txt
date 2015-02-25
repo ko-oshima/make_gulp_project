@@ -1,4 +1,4 @@
-フロント開発用のgulp環境構築スクリプト
+﻿フロント開発用のgulp環境
 typescript, lessでの開発を想定。
 
 【フォルダ構成】
@@ -25,5 +25,5 @@ _task ディレクトリに移動して gulp で初回buildと監視を開始す
 2015/02/25 javascriptをtypescriptからの生成に変更。webpackは廃止
 
 [メモ]
-build,watch をて入力する必要があるので自動化したい
+build,watch を手入力する必要があるので自動化したい
     ※ tasksディレクトリにjsを追加 -> 自動的にデフォルトと監視タスクに追加
